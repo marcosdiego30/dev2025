@@ -23,11 +23,15 @@ body{
 }
 
 header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
     padding: 15px;
+    position: fixed;
+    z-index: 11;
+    background-color: #ccc;
 }
 
 header h1 {
@@ -80,7 +84,7 @@ main .img img {
 main .text {
     width: 40%;
     position: absolute;
-    top: 800px;
+    top: 729px;
     left: 0;
     z-index: 1;
     border-radius: 0 50px 50px 0;
